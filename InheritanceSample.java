@@ -7,7 +7,7 @@ public class InheritanceSample
 	        System.out.println("Student Address: " + student1.getAddress());
 	        System.out.println("Student Program: " + student1.getProgram());
                 System.out.println("Student Year: " + student1.getYear());
-	        System.out.println());
+	        System.out.println();
 
 		
 		
