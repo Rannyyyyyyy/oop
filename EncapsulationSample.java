@@ -7,7 +7,8 @@ public class EncapsulationSample
 	 student1.setname("Student_1");
 	 
 	 System.out.println("Student Id: " + student1.getId());
-	 	 System.out.println("Student Id: " + student1.getname());
+	 System.out.println("Student Id: " + student1.getname());
+	 System.out.println();
 	 	 
 	 Book book1 = new Book();
 	 book1.setbooknumber(1);
@@ -18,7 +19,7 @@ public class EncapsulationSample
 	 System.out.println("Book number: " + book1.getBookNumber());
 	 	 System.out.println("Book Title: " + book1.getTitle());
 	 	 System.out.println("Author: " + book1.getAuthor());
-	 	 	 	 System.out.println("Book Price: " + book1.getPrice());
+	 	 System.out.println("Book Price: " + book1.getPrice());
 	}
 }
  class Student{
