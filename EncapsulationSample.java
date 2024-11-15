@@ -67,8 +67,6 @@ public class EncapsulationSample
     }
     public float getPrice(){
         return price;
-    }
-    
-     
+    }     
 }
 
