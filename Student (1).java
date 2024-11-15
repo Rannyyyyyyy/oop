@@ -21,4 +21,8 @@ class Student extends Person{
     public int getYear(){
         return year;
     }
+    public String toString(){
+        return "Hello I am " + name + " I lived in " + address + ". I am " + year + "year of " + program + ".";
+    }
+     
 }

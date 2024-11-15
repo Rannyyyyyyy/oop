@@ -21,4 +21,8 @@ class Staff extends Person{
          public float getSalary(){
             return salary;
         }
+        public String toString(){
+        return "Hello I am " + name + " I lived in " + address + ". I am currently studying at " + school + " with the salary of " + salary + ".";
+    }
+     
     }
